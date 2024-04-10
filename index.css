@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header{
+    padding: 5rem;
+    background-color: rgb(37, 93, 175);
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav ul li a:hover{
+    color: rgb(12, 11, 11);
+    background-color: rgb(235, 241, 229);
+    transition: 0,7s;
+}
+
+
+.meta1{
+    background-image: url(imagens/banner\ 01.jpg);
+    padding: 20rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-text{
+    background-color: black;
+    color: aliceblue;
+    font-size: 25px;
+    padding: 10rem;
+    display: flex;
+    text-align: center;
+}
+
+.meta2{
+    background-image: url(imagens/jacare.jpg);
+    padding: 20rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
